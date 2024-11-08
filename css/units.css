@@ -1,10 +1,12 @@
 html {
   /* height: 1000px; */
   /* height: 100%; */
+  /** html nin default font size'1 16px */
+
+  font-size: 30px;
 }
 
 body {
-  /** body nin default font size'1 16px */
   /*! body'nin default yuksekligi yoktur. Bu sebeple child'lardan herhangi birisine yüzdelik bir yukselik verildigin bu yukseklik calismaz */
 
   background-color: #bebe;
@@ -69,14 +71,33 @@ p.percent {
   background-color: lightblue;
   color: white;
   font-size: 2em;
- /* width: 1.5em; */
+  /* width: 1.5em; */
 }
 
 .div6 {
   background-color: yellowgreen;
   color: white;
-  font-size: 0.5em;
-  width: 150px;
+  /* font-size: 0.5em; */
+  font-size: 3em;
 }
 
 /*! REM olcu biriminde bir html elemaninin font size'i root elemaninin (html) font-size'ina gore oranlanir. */
+
+.div7 {
+  font-size: 1rem; /*? 16px * 1 = 16px */
+}
+
+.div8 {
+  font-size: 2rem; /*? 16px * 2 = 32px */
+}
+
+.div9 {
+  font-size: 3rem; /*? 16px * 3 = 48px */
+}
+
+.box {
+background-color:lightcoral;
+width: 4rem; /*? 120px */
+height: 4rem; /*? 120px */
+border-radius: 50%;
+}
