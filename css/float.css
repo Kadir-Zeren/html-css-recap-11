@@ -1,0 +1,12 @@
+img {
+  width: 30%;
+  float: left;
+}
+
+/* .text {
+  float: right;
+} */
+
+.clear {
+  clear: both;
+}
